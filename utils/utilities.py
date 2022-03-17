@@ -132,3 +132,5 @@ def save_checkpoint(state, is_best, filename='checkpoint.pth.tar', name="checkpo
     if is_best:
         shutil.copyfile(filename, 'runs/%s/'%(name) + 'model_best.pth.tar')
 
+#Code Reviewed
+
