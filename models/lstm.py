@@ -27,3 +27,5 @@ class Sequence(nn.Module):
         #output = F.relu(self.lin(output))
         out = self.lin(output[-1])
         return out
+
+#Code Review
